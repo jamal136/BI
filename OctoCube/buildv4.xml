@@ -3,4 +3,4 @@
   <Target Name="Build">
     <Exec Command='"C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\devenv.exe" "C:\Users\Administrator.SERVER101\source\Workspaces\Workspace\OctoCube\OctoCube.sln" /build development '/>
   </Target>
-</Project>
+</Project> 
