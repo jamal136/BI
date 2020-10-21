@@ -287,10 +287,9 @@
     <Build Include="Sales\XMLSchemaCollections\StoreSurveySchemaCollection.sql" />
     <Build Include="Security\Permissions.sql" />
     <Build Include="ExtendedProperties.sql" />
-    <Build Include="Person\Tables\Address2.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="PredeploymentHR.ps1" />
-    <None Include="bin\AdventureWorks2016.publish.xml" />
+    <None Include="AdventureWorks2016.publish.xml" />
   </ItemGroup>
 </Project>
