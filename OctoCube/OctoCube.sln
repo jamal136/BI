@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "OctoCube", "OctoCube.dwproj", "{AAC9905D-2F50-4EC9-BEDF-93BBDFDC4F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAC9905D-2F50-4EC9-BEDF-93BBDFDC4F56}.Development|Default.ActiveCfg = Development
+		{AAC9905D-2F50-4EC9-BEDF-93BBDFDC4F56}.Development|Default.Build.0 = Development
+		{AAC9905D-2F50-4EC9-BEDF-93BBDFDC4F56}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0038F563-E796-4F48-B7FF-6BAA70244EE8}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://server101:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OctoCube.dwproj
+		SccLocalPath1 = .
+	EndGlobalSection
+EndGlobal
