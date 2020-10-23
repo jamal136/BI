@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="9/22/2020 10:15:50 AM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="11"
-  DTS:VersionGUID="{367CB667-9541-4B65-8924-847C01602939}">
+  DTS:VersionBuild="12"
+  DTS:VersionGUID="{8FE3A404-0657-4580-80E0-A7B10CD86CE7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -239,7 +239,7 @@
                 <property
                   dataType="System.String"
                   description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[DEMO_Tbl_SalesReasong]</property>
+                  name="OpenRowset">[dbo].[OLE DB Destination]</property>
                 <property
                   dataType="System.String"
                   description="Specifies the variable that contains the name of the database object used to open a rowset."
@@ -413,33 +413,33 @@
         <NodeLayout
           Size="171,42"
           Id="Package\Data Flow Task\OLE DB Destination"
-          TopLeft="136,172" />
+          TopLeft="313,136" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="196,85">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="25.5,87"
+              EndConnector="202.5,51"
               Start="0,0"
-              End="25.5,79.5">
+              End="202.5,43.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,39.5" />
+                    End="0,21.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,39.5"
-                    Point2="0,43.5"
-                    Point3="4,43.5" />
+                    Point1="0,21.5"
+                    Point2="0,25.5"
+                    Point3="4,25.5" />
                   <mssgle:LineSegment
-                    End="21.5,43.5" />
+                    End="198.5,25.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="21.5,43.5"
-                    Point2="25.5,43.5"
-                    Point3="25.5,47.5" />
+                    Point1="198.5,25.5"
+                    Point2="202.5,25.5"
+                    Point3="202.5,29.5" />
                   <mssgle:LineSegment
-                    End="25.5,79.5" />
+                    End="202.5,43.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
